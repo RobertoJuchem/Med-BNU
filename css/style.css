@@ -1,6 +1,7 @@
 html body{
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 height: 100%;
+width: 100%;
 }
 
 header{
@@ -250,6 +251,89 @@ a{
    color: #ededed;
 }
 
+.video{
+   background: #0a5f55;
+   height: 450px;
+}
+
+.video-container{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+}
+
+.video-title{
+   color: #b1d341;
+   font-family: cursive;
+   font-size: 3em;
+   margin-bottom: 30px;
+}
+
+.navMapSite{
+   background: #fff;
+}
+
+.navMapSite-list{
+   display: flex;
+   height: 220px;
+   flex-flow: column wrap;
+}
+
+.navMapSite-list-title{
+   color: #0a5f55;
+   font-weight: 700;
+   font-size: 1.3em;
+   align-self: center;
+   margin-top: 30px;
+   margin-bottom: 15px;
+   padding-top: 25px;
+}
+
+.list-tilte-MEDBNU{color: #54c82f; border-bottom: 4px solid #54c82f;}
+.list-tilte-servicos{color: #b1d341; border-bottom: 4px solid #b1d341;}
+.list-tilte-sustentabilidade{color: #00995d; border-bottom: 4px solid #00995d;}
+.list-tilte-viverMelhor{color: #0a5f55; border-bottom: 4px solid #0a5f55;}
+.list-tilte-noticias{color: #00401a; border-bottom: 4px solid #00401a;}
+
+
+.navMapSite-link{
+   color: #a0a0a0;
+   font-weight: 500;
+   font-size: 14px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
 .footer-container{
    background: #ededed;
+}
+
+.footer-content{
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+}
+
+.footer-label{
+   color: #24272a;
+   font-weight: 700;
+   font-size: 20px;
+   margin-right: 7px;
+   padding-top: 8px;
+}
+
+.footer-button{
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   background-color: #4DBA7A;
+   color: #FFF;
+   cursor: pointer;
+}
+
+.footer-button, .footer-input{
+   border: 1px solid #4DBA7A;
+   box-sizing: border-box;
+   font-size: 16px;
+   height: 35px;
 }
