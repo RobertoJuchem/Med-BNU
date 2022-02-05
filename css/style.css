@@ -5,7 +5,8 @@ width: 100%;
 }
 
 header{
-   background: #24272a;
+   align-self: center;
+   background: #797878;
    height: 120px;
    width: 100%;
    padding: 25px;
@@ -86,7 +87,7 @@ a{
 }
 
 .header-dropdown__span{
-   color: #b1d341;
+   color: #ededed;
    font-size: 1.5em;
    font-weight: 800;
    margin-bottom: 5px;
@@ -99,12 +100,12 @@ a{
 }
 
 .header-dropdown__submenu-link{
-   color: #b1d341;
+   color: #ededed;
    display: block;
 }
 
 .header-dropdown__submenu-link:hover{
-   color: #ededed;
+   color: #54c82f;
 }
 
 .banner{
@@ -123,18 +124,18 @@ a{
    padding: 30px 0;
    position: absolute;
    top: 0%;
-   width: 500px;
+   width: 600px;
 }
 
 .div-plans li{
    background: #fff;
-   border: 3px solid #24272a;
+   border: 3px solid #0a5f55;
    border-radius: 15px;
    box-sizing: border-box;
    box-shadow: 0 5px 5px #24272a;
    margin: 0 15px;
    padding: 25px 15px;
-   width: 70%;
+   width: 250px;
    text-align: center;
 }
 
@@ -158,13 +159,13 @@ a{
 
 .plans-img{
    height: 180px;
-   width: 150px;
+   width: 100%;
 }
 
 .plans-button{
-   background: #b1d341;
+   background: #24272a;
    border: none;
-   border-radius: 10px;
+   border-radius: 5px;
    color: #ededed;
    width: 150px;
    height: 40px;
@@ -303,6 +304,10 @@ a{
    font-size: 14px;
    padding-bottom: 10px;
    text-align: center;
+}
+
+.navMapSite-link:hover{
+   text-decoration: underline;
 }
 
 .footer-container{
