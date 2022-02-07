@@ -1,0 +1,53 @@
+body{
+   background: #ededed;
+}
+
+main{
+   display: flex;
+   justify-content: center;
+}
+
+.container-person{
+   margin-top: 40px;
+   width: 360px;
+}
+
+form{
+   width: 280px;
+   text-align: justify;
+}
+
+.choicePlan{
+   display: inline-block;
+   font-size: 1.5em;
+   color: #797878;
+}
+
+h3{
+   padding: 10px 0 10px 0;
+}
+
+label, input{
+   margin-bottom: 10px;
+}
+
+.agePlan{
+   color: #797878;
+}
+
+.div-button{
+   display: inline-block;
+   margin-left: 25%;
+}
+
+.button-plan{
+   cursor: pointer;
+   margin: 5px auto;
+   background: #b1d341;
+   border: none;
+   border-radius: 5px;
+   color: #00401a;
+   height: 30px;
+   font-weight: bold;
+   width: 175px;
+}

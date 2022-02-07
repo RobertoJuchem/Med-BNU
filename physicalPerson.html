@@ -6,8 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="./css/reset.css">
       <link rel="stylesheet" href="./css/style.css">
-      <link rel="stylesheet" href="./css/legalPerson.css">
-      <title>Planos Pessoa Jurídica</title>
+      <link rel="stylesheet" href="./css/Person.css">
+      <title>Planos Pessoa Física</title>
    </head>
 
    <body>
@@ -78,42 +78,53 @@
       </header>
 
       <main>
-         <div>
+         <div class="container-person">
             <form>
-               <label for="apartamentLegalPlan">Plano Apartamento</label>
-               <input type="radio" id="apartamentLegalPlan">
+               <label class="choicePlan">Plano Apartamento</label>
+               <input type="radio" name="plan" id="apartamentPlan"><br>
 
-               <label for="infirmaryLegalPlan">Plano Enfermaria</label>
-               <input type="radio" id="infirmaryLegalPlan">
+               <label class="choicePlan">Plano Enfermaria</label>
+               <input type="radio" name="plan" id="nurseryPlan">
 
                <h3>Quantidade de pessoas</h3>
-               <label>0 - 17 anos
+
+               <label class="agePlan">0 - 17 anos
                   <input type="number">
                </label>
 
-               <label>18 - 24 anos
+               <label class="agePlan">18 - 24 anos
                   <input type="number">
                </label>
 
-               <label>25 - 32 anos
+               <label class="agePlan">25 - 32 anos
                   <input type="number">
                </label>
 
-               <label>32 - 49 anos
+               <label class="agePlan">32 - 49 anos
                   <input type="number">
                </label>
 
-               <label>50 - 59 anos
+               <label class="agePlan">50 - 59 anos
                   <input type="number">
                </label>
                
-               <label>acima de 60 anos
+               <label class="agePlan">60 anos
                   <input type="number">
                </label>
 
-               <button>Enviar</button>
+               <div class="div-button">
+                  <button class="button-plan">Enviar</button>
+               </div>
             </form>
          </div>
       </main>
+
+      <footer class="footer-container">
+         <div class="footer-content">
+            <label class="footer-label">Entre em contato</label>
+            <input class="footer-input" type="email" placeholder="adicione seu email">
+            <button class="footer-button" type="submit">Enviar</button>
+         </div>
+      </footer>
    </body>
 </html>
