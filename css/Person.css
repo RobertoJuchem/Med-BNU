@@ -51,3 +51,9 @@ label, input{
    font-weight: bold;
    width: 175px;
 }
+
+@media(max-width:768px){
+   .footer-input{
+      margin-bottom: 0;
+   }
+}

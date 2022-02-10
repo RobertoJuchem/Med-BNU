@@ -342,3 +342,98 @@ a{
    font-size: 16px;
    height: 35px;
 }
+
+@media(max-width:768px){
+   header{
+      width: auto;
+      height: auto;
+   }
+
+   .title-names-header{
+      
+   }
+
+   .container-header{
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      width: 100%;
+   }
+   
+   .container-list{
+      display: flex;
+   }
+
+   .header-dropdown{
+      display: none;
+   }
+
+   .banner{
+      display: flex;
+      height: 920px;
+      width: auto;
+   }
+
+   .banner-img{
+      display: none;
+   }
+
+   .div-plans{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      left: 0;
+      width: auto;
+      justify-content: center;
+   }
+
+   .div-plans li{
+      margin-bottom: 15px;
+   }
+
+   .viverbem{
+      height: 100%;
+      margin: 0px auto;
+   }
+
+   .viverBem-list{
+      flex-direction: column;
+   }
+
+   .viverBem-list-item{
+      margin-bottom: 10px;
+      width: auto;
+   }
+
+   .viver-bem-button{
+      margin-bottom: 5px;
+      position:initial;
+   }
+
+   .video{
+      height: auto;
+   }
+
+   iframe{
+      height: auto;
+      width: auto;
+   }
+
+   .navMapSite-list{
+      flex-direction: column;
+      height: auto;
+   }
+
+   .footer-content{
+      flex-direction: column;
+   }
+
+   .footer-label{
+      margin-bottom: 5px;
+   }
+
+   .footer-button{
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 5px;
+   }
+}
